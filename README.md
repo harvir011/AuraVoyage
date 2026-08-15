@@ -18,7 +18,7 @@
 <br />
 
 <p align="center">
-  <img src="./public/auravoyage_banner.jpg" alt="AuraVoyage Premium Sunset Resort Banner" width="100%" style="border-radius: 16px; box-shadow: 0 15px 45px rgba(12, 26, 46, 0.25);" />
+  <img src="./public/preview.png" alt="AuraVoyage Premium Sunset Resort Banner" width="100%" style="border-radius: 16px; box-shadow: 0 15px 45px rgba(12, 26, 46, 0.25);" />
 </p>
 
 ---
