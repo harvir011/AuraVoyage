@@ -1,0 +1,30 @@
+/* App-level overrides — all design tokens live in index.css */
+
+/* Ensure route transitions don't cause layout shift */
+.flex-grow-1 > div {
+  min-height: 0;
+}
+
+/* Bootstrap form overrides for brand consistency */
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--secondary) !important;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12) !important;
+}
+
+/* Bootstrap modal backdrop override */
+.modal-backdrop {
+  background-color: rgba(12, 26, 46, 0.75) !important;
+}
+
+/* Smooth image loading */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Force Manrope on Bootstrap inputs */
+.form-control,
+.form-select {
+  font-family: var(--font-body) !important;
+}

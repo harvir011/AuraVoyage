@@ -1,0 +1,78 @@
+.world-explorer {
+  position: relative;
+}
+
+.explorer-header {
+  position: relative;
+}
+
+.explorer-header h1 {
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Leaflet Map Overrides */
+.leaflet-container {
+  background: var(--bg-white);
+  border-radius: var(--radius-lg);
+}
+
+:root[data-theme="dark"] .leaflet-container {
+  background: #1a2332;
+}
+
+.leaflet-control-attribution {
+  background: rgba(255, 255, 255, 0.9) !important;
+  font-size: 0.75rem !important;
+}
+
+:root[data-theme="dark"] .leaflet-control-attribution {
+  background: rgba(20, 25, 36, 0.9) !important;
+  color: var(--text-body) !important;
+}
+
+.leaflet-control {
+  border-radius: 8px !important;
+}
+
+.leaflet-control-zoom {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid var(--border-light) !important;
+  box-shadow: var(--shadow-soft) !important;
+}
+
+:root[data-theme="dark"] .leaflet-control-zoom {
+  background: rgba(20, 25, 36, 0.95) !important;
+}
+
+.leaflet-control-zoom a {
+  color: var(--primary) !important;
+  background: transparent !important;
+  border: none !important;
+  font-weight: 600 !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background: var(--bg-blue-tint) !important;
+}
+
+/* GeoJSON Feature Styling */
+.leaflet-interactive {
+  outline: none;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .world-explorer .container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .explorer-header {
+    padding: 2rem 0 1.5rem !important;
+  }
+
+  .explorer-header h1 {
+    font-size: 2rem !important;
+  }
+}
