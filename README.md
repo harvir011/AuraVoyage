@@ -101,5 +101,5 @@ npm run build
 Check out the application : https://aura-voyage-hazel.vercel.app/
 
 <p align="center">
-  Designed with dedication to the art of travel by AuraVoyage.
+  Designed with dedication and love to the art of travel by AuraVoyage.
 </p>
